@@ -32,7 +32,6 @@ public class LoginPageTest extends BaseTest {
   }
   
   
-  //test
   
 
 }
