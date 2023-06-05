@@ -27,11 +27,11 @@ public class LoginPageTest extends BaseTest {
   public void loginTest() {
     InventoryPage inventoryPage = loginPageService.login();
     String actualTextOfInventoryPage = inventoryPage.getTextOfNameOfMainPageSection();
-    String expectedPageText = "PRODUCTS";
+    String expectedPageText = "Products";
     Assert.assertEquals(actualTextOfInventoryPage, expectedPageText, "The actual text of the page does not match expected!");
   }
   
-  
+ //6464 
   
 
 }
