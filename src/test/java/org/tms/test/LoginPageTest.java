@@ -28,7 +28,7 @@ public class LoginPageTest extends BaseTest {
     InventoryPage inventoryPage = loginPageService.login();
     String actualTextOfInventoryPage = inventoryPage.getTextOfNameOfMainPageSection();
     String expectedPageText = "Products";
-    Assert.assertEquals(actualTextOfInventoryPage, expectedPageText, "The actual text of the page does not match expected!");
+    Assert.assertEquals(actualTextOfInventoryPage, expectedPageText, "The actual text of the page does not match expected");
   }
   
 
